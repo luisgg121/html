@@ -10,55 +10,59 @@
 
 <body>
     <div>
-        <ul>
-            <li><a class="active" href="index.html">Inicio</a></li>
-            <li><a href="biblia.html">La Biblia</a></li>
-            <li><a href="quijote.html">Don Quijote de la Mancha</a></li>
-            <li><a href="principito.html">El Principito</a></li>
-            <li><a href="acerca.html">Acerca de</a></li>
-        </ul>
+        <div id="menu" class="contenedor">
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="biblia.html">La Biblia</a></li>
+                <li><a href="quijote.html">Don Quijote de la Mancha</a></li>
+                <li><a href="principito.html">El Principito</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+            </ul>
+        </div>
+        <div class="contenedor">
+            <img id="imagen" src="./recursos/el-principito.jpg" alt="El Principito">
+            <div class="contenedor">
+                <h2>Resumen:</h2>
+                <p>
+                    El Principito es un personaje principal en el libro homónimo escrito por Antoine de Saint-Exupéry.
+                    La
+                    historia gira en torno a él mientras viaja de planeta en planeta, haciendo preguntas que se dan por
+                    hechas y que no interesan a nadie. La obra es un clásico de la literatura universal y narra las
+                    reflexiones del
+                    pequeño príncipe sobre la vida, el amor y la amistad mientras explora el universo.
+                </p>
+            </div>
+        </div>
+        <div class="contenedor">
+            <table id="libros">
+                <tr>
+                    <th>Frases inolvidables</th>
+                </tr>
+                <tr>
+                    <td>Si me domesticas, tendremos necesidad el uno del otro</td>
+                </tr>
+                <tr>
+                    <td>Si vienes, por ejemplo, a las cuatro de la tarde, comenzaré a ser feliz desde las tres</td>
+                </tr>
+                <tr>
+                    <td>Eres responsable para siempre de lo que has domesticado</td>
+                </tr>
+            </table>
+        </div>
+        <div class="contenedor">
 
-        <img src="./recursos/el-principito.jpg" alt="El Principito">
-
-        <table id="libros">
-            <tr>
-                <th>Frases inolvidables</th>
-            </tr>
-            <tr>
-                <td>Si me domesticas, tendremos necesidad el uno del otro</td>
-            </tr>
-            <tr>
-                <td>Si vienes, por ejemplo, a las cuatro de la tarde, comenzaré a ser feliz desde las tres</td>
-            </tr>
-            <tr>
-                <td>Eres responsable para siempre de lo que has domesticado</td>
-            </tr>
-        </table>
-
-        <iframe width="788" height="591" src="https://www.youtube.com/embed/yiPGpd7dSHs" title="" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-
-
-        <h2>Resumen</h2>:
-        <p>
-            <img src="./recursos/el-principito.jpg" alt="El Principito" style="float:left;width:150px">
-            El Principito es un personaje principal en el libro homónimo escrito por Antoine de Saint-Exupéry. La
-            historia
-            gira en torno a él mientras viaja de planeta en planeta, haciendo preguntas que se dan por hechas y que no
-            interesan a nadie. La obra es un clásico de la literatura universal y narra las reflexiones del pequeño
-            príncipe sobre la vida, el amor y la amistad mientras explora el universo.
-        </p>
-
-        <audio controls>
-            <source src="./recursos/la-princesa-y-el-guisante 1.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-
-
-        <!-- <iframe width="420" height="345" src="https://youtu.be/mWBBzgbymdM?si=k7uzjDY53rwbdr87">
-    </iframe> -->
+            <iframe class="contenedor" src="https://www.youtube.com/embed/yiPGpd7dSHs" title=""
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <div class="contenedor">
+                <h3>Audio libro:</h3>
+                <audio controls class="contenedor">
+                    <source src="./recursos/la-princesa-y-el-guisante 1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
     </div>
 </body>
 

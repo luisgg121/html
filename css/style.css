@@ -1,6 +1,19 @@
 /* Hoja de estilos */
 body {
     margin: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#menu {
+    display: block;
+}
+
+.contenedor {
+    
+    text-align: justify;
+    padding: 10px;
 }
 
 ul {
@@ -9,7 +22,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
 }
@@ -61,4 +74,28 @@ li a:hover:not(.active) {
     text-align: left;
     background-color: #04AA6D;
     color: white;
+}
+
+#imagen {
+    padding: 10px;
+    border-radius:12px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+iframe {
+    width: 20%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    float: left;
+    border: 0px;
+}
+
+audio {
+    width: 30%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: inline;
 }
