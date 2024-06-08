@@ -13,7 +13,7 @@ body {
 .contenedor {
     text-align: justify;
     padding: 10px;
-    
+
 }
 
 ul {
@@ -78,7 +78,7 @@ li a:hover:not(.active) {
 
 #imagen {
     padding: 10px;
-    border-radius:12px;
+    border-radius: 12px;
     float: left;
     margin-left: auto;
     margin-right: auto;
@@ -102,4 +102,9 @@ audio {
 
 #audio {
     position: relative;
+}
+
+.etiqueta {
+    font-weight: bold;
+    color: darkblue;
 }
