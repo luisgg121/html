@@ -108,3 +108,7 @@ audio {
     font-weight: bold;
     color: darkblue;
 }
+
+#resumen {
+    display: block;
+}
