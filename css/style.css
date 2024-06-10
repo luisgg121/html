@@ -12,8 +12,8 @@ body {
 
 .contenedor {
     text-align: justify;
+    vertical-align: top;
     padding: 10px;
-
 }
 
 ul {
